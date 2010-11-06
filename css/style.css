@@ -1,7 +1,75 @@
 @import url("reset.css");
 
+body {
+	background-color: #686a72;
+	margin-top: 10px;
+}
+
+#wrapper, #content_wrapper {
+	margin-top: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#wrapper {
+	width: 910px;
+	margin: 0 auto;
+	background-color: #eef0f3;
+	padding: 25px;
+	margin-bottom: 20px;
+}
+
 h1 {
-    background: url(../images/image.png) top left no-repeat;
-    width: ;
-    height: ;
+	font-family: "DINCondensedC";
+}
+
+header h1 {
+	font-size: 49px;
+}
+
+#content_wrapper {
+	background: #fff;
+	float: left;
+	width: 860px;
+	padding: 25px;
+	border: 1px solid #e1e1e1;
+	-webkit-box-shadow: 0px 0px 5px #e1e1e1;
+}
+
+#content {
+	width: 635px;
+	float: left;
+	margin-right: 25px;
+}
+
+aside {
+	width: 200px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	clear: both;
 }

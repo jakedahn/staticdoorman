@@ -2,31 +2,62 @@
 <html lang="en" xml:lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>title</title>
-    <meta name="Author" content="Author" />
-    <meta name="Robots" content="index,all" />
-    <meta name="Keywords" content="Key Words" />
-    <meta name="Description" content="Descritpion" />
+    <title>Doorman</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8" />
   </head>
   <body>
     <div id="wrapper">
-      <div id="header">
-        <h1>Logo text</h1>
-        <ul id="nav">
-          <li><a href="#">Nav Item 1</a></li>
-          <li><a href="#">Nav Item 2</a></li>
-        </ul>
+      <header>
+        <h1>Doorman</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="content_wrapper">
+        <div id="content">
+          <section id="category_name" class="category">
+            <h1>Category Name</h1>
+            <article id="foo">
+              <h1>Foo</h1>
+              <ul id="images">
+                <li><img src="images/thumbnail.png" alt="image title" /></li>
+                <li><img src="images/thumbnail.png" alt="image title" /></li>
+                <li><img src="images/thumbnail.png" alt="image title" /></li>
+              </ul>
+              <ul class="item_nav">
+                <li><a href="#">Edit</a></li>
+              </ul>
+            </article>
+
+            <article id="foo">
+              <h1>Foo</h1>
+              <ul id="images">
+                <li><img src="images/thumbnail.png" alt="image title" /></li>
+                <li><img src="images/thumbnail.png" alt="image title" /></li>
+                <li><img src="images/thumbnail.png" alt="image title" /></li>
+              </ul>
+              <ul class="item_nav">
+                <li><a href="#">Edit</a></li>
+              </ul>
+            </article>
+
+          </section>
+        </div>
+        <aside>
+          <ul id="sidebar_nav">
+            <li><a href="#">Action 1</a></li>
+          </ul>
+        </aside>
       </div>
-      <div id="sidebar">
-        sidebar
-      </div>
-      <div id="content">
-        content
-      </div>
-      <div id="footer">
-        footer
-      </div>  
+      <footer>
+
+      </footer>
     </div>
+    
   </body>
 </html>
