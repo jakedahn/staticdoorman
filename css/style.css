@@ -47,8 +47,26 @@ aside {
 	float: left;
 }
 
+.category {
+	float: left;
+	width: 600px;
+}
 
-
+article {
+	float: left;
+	-webkit-box-shadow: 0px 0px 5px #e1e1e1;
+		-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 36px;
+	padding: 25px;
+}
+article ul li {
+	float: left;
+	list-style-type: none;
+	margin-right: 20px;
+}
 
 
 
