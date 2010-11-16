@@ -1,7 +1,7 @@
 @import url("reset.css");
 
 body {
-	background-color: #686a72;
+	background-color: #222222;
 	margin-top: 10px;
 }
 
@@ -14,9 +14,11 @@ body {
 #wrapper {
 	width: 910px;
 	margin: 0 auto;
-	background-color: #eef0f3;
+	background-color: #333;
 	padding: 25px;
 	margin-bottom: 20px;
+	-webkit-box-shadow: 0px 0px 5px #e1e1e1;
+
 }
 
 h1 {
