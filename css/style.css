@@ -283,3 +283,16 @@ a.add_btn:active {
 footer {
 	clear: both;
 }
+
+footer p {
+	font-family: georgia, serif;
+	font-weight: ;
+	color: #fff;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 5px;
+	float: left;
+	width: 100%;
+	text-shadow: #9a9a9a 1px 1px 3px;
+	opacity: 0.29;
+}
