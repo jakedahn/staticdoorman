@@ -116,6 +116,10 @@ nav li a {
 	text-shadow: #d6d6d6 2px 1px 0;
 }
 
+nav li a:hover {
+	color: #909090;
+	background: rgba(0,0,0,0.12);
+}
 nav li.active a {
 	background: #f4f4f4;
 	color: #777;
@@ -201,6 +205,10 @@ ul.elements li .delete {
 
 ul.elements li:hover {
 	background: #eff;
+}
+
+ul.elements li:active {
+	background: #bff8f8;
 }
 
 ul.elements li:hover .delete {
