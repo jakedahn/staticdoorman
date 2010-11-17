@@ -3,6 +3,7 @@
 body {
 	background-color: #e6e6e6;
 	margin-top: 10px;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 header {
 	float: left;
@@ -28,17 +29,14 @@ header {
 
 header h1 {
 	text-shadow: #d6d6d6 2px 1px 0;
+	font-size: 49px;
 }
 
 h1 {
 	font-family: "DINCondensedC";
 	float: left;
 	color: #777;
-	
-}
-
-header h1 {
-	font-size: 49px;
+	margin-bottom: 23px;
 }
 
 #content_wrapper {
@@ -89,7 +87,7 @@ article ul li {
 nav {
 	float: right;
 	position: relative;
-	margin-bottom: -34px;
+	margin-top: 23px;
 }
 
 header nav li {
@@ -125,19 +123,22 @@ nav li.active a {
 
 #content h1 {
 	color: #afafaf;
-	font-size: 80px;
+	font-size: 36px;
 	text-shadow: #d6d6d6 2px 1px 0;
+	margin-bottom: 24px;
 }
 
 #content article h1 {
-	font-size: 18px;
-	color: #333;
+	font-size: 24px;
+	color: #7b7b7b;
 	width: 100%;
+	margin-bottom: 14px;
 }
 
 #content article {
 	font-family: "Lucida Grande";
-	width: 100%;
+	width: 97%;
+	float: left;
 }
 
 article ul li {
@@ -185,15 +186,91 @@ article ul li ul.list_actions li a {
 }
 
 .delete a{ background-color: #FF0A7C; }
-.visible a{ background-color: #8ae8a4; }
 .delete a:hover{ background-color: #ffa5cf; }
+.delete a:active{ background-color: #e10068; }
+.visible a{ background-color: #8ae8a4; }
 .visible a:hover{ background-color: #a4ffbd; }
+.visible a:active{ background-color: #31a250; }
+.hidden a{ background-color: #c9c9c9; }
+.hidden a:hover{ background-color: #e3e3e3; }
+.hidden a:active{ background-color: #a7a7a7; }
 
+ul.elements li .delete {
+	display: none;
+}
 
+ul.elements li:hover {
+	background: #eff;
+}
 
+ul.elements li:hover .delete {
+		display: block;
+}
 
+ul.elements li {
+	cursor: pointer;
+}
 
+section {
+	float: left;
+}
 
+a.add_btn {
+	display: block;
+	float: right;
+	padding: 10px;
+	display: block;
+	font-size: 12px;
+	font-weight: normal !important;
+	width: auto;
+	color: #fff;
+		-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #8ae8a4;
+	text-decoration: none;
+}
+
+a.add_btn:hover {
+	background: #3dc763;`
+}
+a.add_btn:active {
+	background: #31a250;`
+}
+
+#sidebar_nav li a {
+	background: #e1e1e1;
+		-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #777;
+	font-size: 12px;
+	padding: 10px;
+	width: 189px;
+	display: block;
+	text-decoration: none;
+	margin-bottom: 10px;
+		border: 1px solid #d8d9db;
+
+}  
+
+#sidebar_nav li a:hover {
+	background: #e8e8e8;
+}
+
+#sidebar_nav li a:active {
+	background: #c4c4c4;
+}
+#sidebar_nav li a span {
+	float: right;
+	color: #b2b2b2;
+}
+
+#sidebar_nav {
+	list-style-type: none;
+	float: left;
+	margin-top: 61px;
+}
 
 footer {
 	clear: both;
