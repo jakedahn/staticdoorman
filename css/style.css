@@ -1,5 +1,13 @@
 @import url("reset.css");
 
+@font-face {
+  font-family: 'league';
+  src: url('league.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 body {
 	background-color: #e6e6e6;
 	margin-top: 10px;
@@ -33,7 +41,7 @@ header h1 {
 }
 
 h1 {
-	font-family: "DINCondensedC";
+	font-family: "league";
 	float: left;
 	color: #777;
 	margin-bottom: 23px;
@@ -109,7 +117,7 @@ nav li a {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	padding: 15px 25px 10px;
-	font-family: "DINCondensedC";
+	font-family: "league";
 	font-weight: normal;
 	border: 3px solid #e6e6e6;
 	border-bottom: 0;
